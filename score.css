@@ -1,0 +1,41 @@
+.score-card-container {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.score-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.score-card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.score-card-body {
+    padding: 20px;
+}
+
+.score-card-footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+#retry-button, #view-answers-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#retry-button:hover, #view-answers-button:hover {
+    background-color: #3e8e41;
+}
